@@ -93,6 +93,7 @@ button:focus-visible {
 .container {
   max-width: 1260px;
   margin: auto;
+  padding: 0 10px;
 }
 
 /* Akrobat Regular */
@@ -104,6 +105,10 @@ button:focus-visible {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  font-family: 'Akrobat', sans-serif;
 }
 
 .emailIcon {
@@ -147,6 +152,12 @@ header {
 
 .header-top {
   display: flex;
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
 }
 
 .header-subtitle {
@@ -219,12 +230,21 @@ header {
   margin-bottom: 40px;
 }
 
-.red {
-  color: #8b1a1a;
-  line-height: 1.2;
+.banner-title {
+  font-family: 'Akrobat', Tahoma, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-stretch: 50%;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
 }
 
-.black {
+.banner-red {
+  color: #811f1f;
+}
+
+.banner-black {
   color: #1a1a1a;
   font-weight: 300;
 }
@@ -265,9 +285,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 200px;
+  width: 211px;
+  height: 140px;
   background-color: rgb(250, 247, 247);
+}
+
+.hero-brands {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .hero-subtitle {
@@ -283,8 +310,7 @@ header {
   margin-top: 100px;
   padding: 50px 0;
   background-image:
-    linear-gradient(rgba(120, 10, 10, 0.85), rgba(40, 5, 5, 0.9)),
-    url('assets/2018-Rolls-Royce-Phantom-9-min.jpg');
+    linear-gradient(rgba(120, 10, 10, 0.85), rgba(40, 5, 5, 0.9)), url('assets/background.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -362,12 +388,6 @@ header {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 1024px) {
-  .parts-parallax {
-    background-attachment: scroll;
-  }
-}
-
 /* About */
 
 .about-title {
@@ -416,7 +436,7 @@ header {
 .audio-blocks {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
   margin-top: 20px;
   background: white;
   padding: 30px;
@@ -426,9 +446,6 @@ header {
     0 10px 25px rgba(0, 0, 0, 0.05),
     0 20px 48px rgba(0, 0, 0, 0.05),
     0 1px 4px rgba(0, 0, 0, 0.1);
-}
-
-.audio-block {
 }
 
 .audio-title {
@@ -441,16 +458,11 @@ header {
   margin: 30px 0;
 }
 
-/* map */
-
-.map {
-  margin-top: 100px;
-}
-
 /* Footer */
 
 .footer {
-  background-color: #7a0000;
+  margin-top: 40px;
+  background-color: #811f1f;
   color: #ffffff;
   padding: 40px 0 20px 0;
   font-family: 'Poppins', sans-serif;
@@ -585,6 +597,10 @@ header {
     flex-direction: column;
     gap: 10px;
   }
+
+  .banner-title {
+    font-size: 48px;
+  }
   .hero-subtitle {
     font-size: 16px;
     margin: 20px 0;
@@ -604,6 +620,13 @@ header {
   .footer-contacts {
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .audio-blocks {
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+    gap: 20px;
   }
 }
 

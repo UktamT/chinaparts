@@ -1,0 +1,5 @@
+User-agent: *
+
+# разрешаем всем роботам индексировать весь сайт
+
+Sitemap: https://chinapart.kg/sitemap.xml
