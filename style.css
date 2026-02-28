@@ -458,10 +458,16 @@ header {
   margin: 30px 0;
 }
 
+/* map */
 .map {
   margin-top: 60px;
 }
 
+.map-content iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
 /* Footer */
 
 .footer {
