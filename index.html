@@ -45,6 +45,7 @@
       type="font/woff2"
       crossorigin
     />
+    <link rel="preload" href="./assets/headerCar (1).webp" as="image" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -55,7 +56,13 @@
       <div class="container">
         <div class="header-content">
           <div class="header-top">
-            <img src="./assets/headerLogo.webp" alt="Логотип China Part" width="60" height="60" />
+            <img
+              src="./assets/headerLogo.webp"
+              alt="Логотип China Part"
+              width="60"
+              height="60"
+              fetchpriority="high"
+            />
             <div>
               <div class="header-title">China Part</div>
               <p class="header-subtitle">Запчасти на автомобили</p>
@@ -90,6 +97,8 @@
                   src="./assets/free-icon-checked-399283.webp"
                   alt=""
                   aria-hidden="true"
+                  width="20"
+                  height="20"
                 />
                 В наличии и на заказ
               </li>
@@ -99,6 +108,8 @@
                   src="./assets/free-icon-checked-399283.webp"
                   alt=""
                   aria-hidden="true"
+                  width="20"
+                  height="20"
                 />
                 Только проверенные детали
               </li>
@@ -108,6 +119,8 @@
                   src="./assets/free-icon-checked-399283.webp"
                   alt=""
                   aria-hidden="true"
+                  width="20"
+                  height="20"
                 />
                 Доставка по всему Кыргызстану от 3 до 7 дней
               </li>
@@ -117,6 +130,8 @@
                   src="./assets/free-icon-checked-399283.webp"
                   alt=""
                   aria-hidden="true"
+                  width="20"
+                  height="20"
                 />
                 Любые виды оплаты
               </li>
@@ -126,6 +141,8 @@
                   src="./assets/free-icon-checked-399283.webp"
                   alt=""
                   aria-hidden="true"
+                  width="20"
+                  height="20"
                 />
                 Вежливый и опытный персонал
               </li>
@@ -136,6 +153,9 @@
             src="./assets/headerCar (1).webp"
             alt="Запчасти для современных китайских авто"
             class="header-hero-img"
+            width="800"
+            height="450"
+            fetchpriority="high"
           />
         </div>
       </div>
@@ -146,53 +166,129 @@
         <div class="container">
           <div class="hero-content">
             <h2 class="hero-title">
-              <img src="./assets/headerLogo.webp" alt="" aria-hidden="true" /> БРЕНДЫ
+              <img
+                src="./assets/headerLogo.webp"
+                alt=""
+                aria-hidden="true"
+                width="30"
+                height="30"
+              />
+              БРЕНДЫ
               <span>С КОТОРЫМИ МЫ РАБОТАЕМ</span>
             </h2>
 
             <div class="hero-brands">
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/changan.webp" alt="Changan" />
+                <img
+                  class="brand-icon"
+                  src="./assets/changan.webp"
+                  alt="Changan"
+                  width="120"
+                  height="100"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/jac.webp" alt="JAC" />
+                <img
+                  class="brand-icon"
+                  src="./assets/jac.webp"
+                  alt="JAC"
+                  width="120"
+                  height="110"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/chery.webp" alt="Chery" />
+                <img
+                  class="brand-icon"
+                  src="./assets/chery.webp"
+                  alt="Chery"
+                  width="120"
+                  height="120"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/li.webp" alt="Lixiang" />
+                <img
+                  class="brand-icon"
+                  src="./assets/li.webp"
+                  alt="Lixiang"
+                  width="120"
+                  height="100"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/geely.webp" alt="Geely" />
+                <img
+                  class="brand-icon"
+                  src="./assets/geely.webp"
+                  alt="Geely"
+                  width="120"
+                  height="100"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/zeekr.webp" alt="Zeekr" />
+                <img
+                  class="brand-icon"
+                  src="./assets/zeekr.webp"
+                  alt="Zeekr"
+                  width="120"
+                  height="60"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/haval.webp" alt="Haval" />
+                <img
+                  class="brand-icon"
+                  src="./assets/haval.webp"
+                  alt="Haval"
+                  width="120"
+                  height="60"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/exeed.webp" alt="Exeed" />
+                <img
+                  class="brand-icon"
+                  src="./assets/exeed.webp"
+                  alt="Exeed"
+                  width="120"
+                  height="60"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/kia.webp" alt="Kia" />
+                <img
+                  class="brand-icon"
+                  src="./assets/kia.webp"
+                  alt="Kia"
+                  width="120"
+                  height="60"
+                  loading="lazy"
+                />
               </div>
               <div class="hero-brand">
-                <img class="brand-icon" src="./assets/hyundai.webp" alt="Hyundai" />
+                <img
+                  class="brand-icon"
+                  src="./assets/hyundai.webp"
+                  alt="Hyundai"
+                  width="120"
+                  height="40"
+                  loading="lazy"
+                />
               </div>
             </div>
 
             <article class="hero-subtitle">
               <p>
-                Приветствуем Вас на нашем сайте посвященному продаже запчастей на китайские и
-                корейские авто в Бишкеке. За 10 лет на рынке мы заработали доверие клиентов и
-                реализовали огромное количество запчастей на китайские и корейские автомобили в
-                Бишкеке. У нас вы можете приобрести запчасти на такие марки авто как: Changan, JAC,
-                Chery, Lixiang, Exeed, Zeekr, Kia, Hyundai, Haval, Geely. В нашем каталоге
-                автозапчастей насчитывается более 1000 разновидностей начиная с кузовных деталей,
-                заканчивая двигателем. Наши менеджеры с удовольствием проконсультируют Вас по
-                подбору и покупке нужных вам автозапчастей на китайские и корейские авто в Бишкеке.
+                Приветствуем Вас на нашем сайте посвященному продаже запчастей на
+                <strong>китайские</strong> и <strong>корейские авто</strong> в Бишкеке. За 10 лет на
+                рынке мы заработали доверие клиентов и реализовали огромное количество запчастей. У
+                нас вы можете приобрести запчасти на такие марки как:
+                <strong
+                  >Changan, JAC, Chery, Lixiang, Exeed, Zeekr, Kia, Hyundai, Haval, Geely</strong
+                >. В нашем каталоге более 1000 разновидностей деталей.
               </p>
             </article>
           </div>
@@ -210,7 +306,13 @@
             <article class="part-item">
               <h3 class="part-name">Двигатель</h3>
               <div class="part-image">
-                <img src="./assets/part1.webp" alt="Запчасти двигателя" loading="lazy" />
+                <img
+                  src="./assets/part1.webp"
+                  alt="Запчасти двигателя"
+                  loading="lazy"
+                  width="280"
+                  height="200"
+                />
               </div>
               <button type="button" class="button">Оставить заявку</button>
             </article>
@@ -218,7 +320,13 @@
             <article class="part-item">
               <h3 class="part-name">Ходовая часть</h3>
               <div class="part-image">
-                <img src="./assets/part2.webp" alt="Детали ходовой части" loading="lazy" />
+                <img
+                  src="./assets/part2.webp"
+                  alt="Детали ходовой части"
+                  loading="lazy"
+                  width="280"
+                  height="200"
+                />
               </div>
               <button type="button" class="button">Оставить заявку</button>
             </article>
@@ -226,7 +334,13 @@
             <article class="part-item">
               <h3 class="part-name">Электрика</h3>
               <div class="part-image">
-                <img src="./assets/part3.webp" alt="Электроника для авто" loading="lazy" />
+                <img
+                  src="./assets/part3.webp"
+                  alt="Электроника для авто"
+                  loading="lazy"
+                  width="280"
+                  height="200"
+                />
               </div>
               <button type="button" class="button">Оставить заявку</button>
             </article>
@@ -234,7 +348,13 @@
             <article class="part-item">
               <h3 class="part-name">Кузовные детали</h3>
               <div class="part-image">
-                <img src="./assets/part4.webp" alt="Кузовные элементы" loading="lazy" />
+                <img
+                  src="./assets/part4.webp"
+                  alt="Кузовные элементы"
+                  loading="lazy"
+                  width="280"
+                  height="200"
+                />
               </div>
               <button type="button" class="button">Оставить заявку</button>
             </article>
@@ -255,6 +375,9 @@
                     src="./assets/free-icon-quote-4990659.webp"
                     alt=""
                     aria-hidden="true"
+                    width="40"
+                    height="40"
+                    loading="lazy"
                   />
                   <p class="review-subtitle">
                     Давно покупаю здесь запчасти. В Бишкеке это лучший выбор по "китайцам". Всегда в
@@ -266,6 +389,9 @@
                     src="./assets/free-icon-man-avatar-17932505.webp"
                     alt="Фото Данияра"
                     class="quote"
+                    width="50"
+                    height="50"
+                    loading="lazy"
                   />
                   <div>
                     <p class="review-name"><strong>ДАНИЯР БЕКЕТАЕВ</strong></p>
@@ -281,6 +407,9 @@
                     src="./assets/free-icon-quote-4990659.webp"
                     alt=""
                     aria-hidden="true"
+                    width="40"
+                    height="40"
+                    loading="lazy"
                   />
                   <p class="review-subtitle">
                     Заказывала запчасти на Chery. Привезли в тот же день прямо домой. Очень вежливые
@@ -292,6 +421,9 @@
                     src="./assets/free-icon-man-avatar-17932505.webp"
                     alt="Фото Татьяны"
                     class="quote"
+                    width="50"
+                    height="50"
+                    loading="lazy"
                   />
                   <div>
                     <p class="review-name"><strong>ТАТЬЯНА СОРКИНА</strong></p>
@@ -306,19 +438,37 @@
             <h2 class="audio-title">Аудио отзывы</h2>
             <div class="audio-blocks">
               <div class="audio-block">
-                <img src="./assets/foto1.webp" alt="Отзыв клиента" />
+                <img
+                  src="./assets/foto1.webp"
+                  alt="Отзыв клиента"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                />
                 <audio controls>
                   <source src="./audio/3.ogg" type="audio/ogg" />
                 </audio>
               </div>
               <div class="audio-block">
-                <img src="./assets/foto2.webp" alt="Отзыв клиента" />
+                <img
+                  src="./assets/foto2.webp"
+                  alt="Отзыв клиента"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                />
                 <audio controls>
                   <source src="./audio/1.ogg" type="audio/ogg" />
                 </audio>
               </div>
               <div class="audio-block">
-                <img src="./assets/foto3.webp" alt="Отзыв клиента" />
+                <img
+                  src="./assets/foto3.webp"
+                  alt="Отзыв клиента"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                />
                 <audio controls>
                   <source src="./audio/2.ogg" type="audio/ogg" />
                 </audio>
@@ -331,7 +481,7 @@
       <section class="map">
         <div class="map-content">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.6077740760593!2d74.69234978021045!3d42.877232272623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb0d3835b44b7%3A0xca06a25a4febfcca!2z0KfRi9C90LDRgA!5e0!3m2!1sru!2skg!4v1772275372524!5m2!1sru!2skg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.704201083414!2d74.5672!3d42.8746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDUyJzI4LjYiTiA3NMKwMzQnMDEuOSJF!5e0!3m2!1sru!2skg!4v1700000000000!5m2!1sru!2skg"
             width="100%"
             height="300"
             style="border: 0"
@@ -347,7 +497,15 @@
       <div class="container">
         <div class="footer-main">
           <div class="footer-brand">
-            <img src="./assets/headerLogo.webp" alt="" class="footer-logo" aria-hidden="true" />
+            <img
+              src="./assets/headerLogo.webp"
+              alt=""
+              class="footer-logo"
+              aria-hidden="true"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
             <div class="footer-brand-text">
               <div class="footer-title">China Part</div>
               <p class="footer-subtitle">Запчасти для китайских и корейских авто</p>
@@ -362,7 +520,7 @@
 
         <div class="footer-copyright">
           <p>
-            &copy; <time datetime="2026">2026</time> "CHINA PART" — ПРОДАЖА ЗАПЧАСТЕЙ В БИШКЕКЕ И ПО
+            © <time datetime="2026">2026</time> "CHINA PART" — ПРОДАЖА ЗАПЧАСТЕЙ В БИШКЕКЕ И ПО
             КЫРГЫЗСТАНУ.
           </p>
         </div>
@@ -376,12 +534,18 @@
       rel="noopener noreferrer"
       aria-label="Написать в WhatsApp"
     >
-      <img src="./assets/free-icon-social-15707820.webp" alt="WhatsApp" />
+      <img src="./assets/free-icon-social-15707820.webp" alt="WhatsApp" width="50" height="50" />
     </a>
 
     <div id="modal-order" class="modal">
       <div class="modal-content">
-        <img class="close-modal" src="./assets/delete_15429067.webp" alt="Закрыть окно" />
+        <img
+          class="close-modal"
+          src="./assets/delete_15429067.webp"
+          alt="Закрыть окно"
+          width="30"
+          height="30"
+        />
         <h2 class="modal-title">Оставить заявку</h2>
         <p class="modal-descr">
           Оставьте контакты, и мы свяжемся с вами в Бишкеке в ближайшее время:
@@ -398,7 +562,7 @@
 
     <div class="mobile-fixed-actions">
       <a href="https://wa.me/+996550740403" class="mobile-action-btn whatsapp">
-        <img src="./assets/free-icon-social-15707820.webp" alt="" />
+        <img src="./assets/free-icon-social-15707820.webp" alt="" width="24" height="24" />
         <span>WhatsApp</span>
       </a>
       <div class="separator"></div>
@@ -409,6 +573,8 @@
           stroke="currentColor"
           stroke-width="2"
           class="btn-icon-svg"
+          width="24"
+          height="24"
         >
           <path
             d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
@@ -418,8 +584,8 @@
       </a>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" defer></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+    <script src="./main.js" defer></script>
   </body>
 </html>
