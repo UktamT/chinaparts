@@ -131,7 +131,7 @@ body {
 
 header {
   padding: 20px 0;
-  background-image: url('./assets/Picsart_26-02-23_00-37-07-097.jpg');
+  background-image: url('./assets/Picsart_26-02-23_00-37-07-097.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -310,7 +310,7 @@ header {
   margin-top: 100px;
   padding: 50px 0;
   background-image:
-    linear-gradient(rgba(120, 10, 10, 0.85), rgba(40, 5, 5, 0.9)), url('assets/background.jpg');
+    linear-gradient(rgba(120, 10, 10, 0.85), rgba(40, 5, 5, 0.9)), url('assets/background.webp');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
